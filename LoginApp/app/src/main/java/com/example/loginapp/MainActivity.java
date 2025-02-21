@@ -11,6 +11,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
     private Button btnLogin, btnSignUp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +31,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, SignUpActivity.class);
             startActivity(intent);
         });
+
     }
 }
+
